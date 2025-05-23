@@ -80,7 +80,7 @@
                   <strong class="text-danger" *ngIf="answer.touched && answer.hasError('required')">You have to give answer </strong>
                 </div>
       
-                <div class="form-group">
+                <!-- <div class="form-group">
                   <label for="isSubscribe"> <input 
                     ngModel
                     #isSubscribe="ngModel"
@@ -88,9 +88,9 @@
                     id="isSubscribe"
                     type="checkbox" class="mr-3"><strong>Subscribe for Email</strong></label>
                   
-                </div>
+                </div> -->
       
-                <!-- <div class="form-group">
+                <div class="form-group">
                   <label *ngFor="let obj of genderArry" [for]="obj" class="mr-3">
                     <input type="radio" ngModel  [value]="obj.gender1" name="obj" [id]="obj.gender">
                     {{obj.gender1}}
