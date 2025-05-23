@@ -3,7 +3,7 @@
   <div class="container ">
     <div class="row">
       
-      <div class="col-md-6 offset-md-3 py-5">
+      <div class="col-md-6 offset-md-3 py-3">
         <div class="card corner">
           <div class="card-body">
             <form #signUpForm="ngForm" (ngSubmit)="onSignUp(signUpForm)">
@@ -99,12 +99,12 @@
                 </div>
       
       
-              <button type="submit" [disabled]="signUpForm.invalid" class="btn btn-sm btn-block btn-success">Add std</button> -->
+              <button type="submit" [disabled]="signUpForm.invalid" class="btn btn-sm btn-block btn-success">Add std</button>
             </form>
             
           </div>
         </div>
-        {{signUpForm.valid}}
+        
          
       </div>
     </div>
