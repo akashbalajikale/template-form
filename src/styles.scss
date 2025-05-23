@@ -1,12 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
- body {
-    // background-image: url('https://img.freepik.com/premium-photo/computer-keyboard-sits-blue-table-with-cup-coffee-pencils_1064589-253999.jpg?ga=GA1.1.691238510.1743764675&semt=ais_country_boost&w=740');
-    background-color: red !important;
-    background-size: cover;
+//  body {
+//     background-image: url('./assets/images/back.JPG.jpg');
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     background-attachment: fixed;
+//     width: 100%;
+//     height: 100vh;  
+//   }
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    
+    background:url('https://img.freepik.com/free-photo/view-old-tree-lake-with-snow-covered-mountains-cloudy-day_181624-28954.jpg?ga=GA1.1.1981978221.1747301521&semt=ais_hybrid&w=740');
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    width: 100%;
-    height: 100vh;  
-  }
-  
+}

@@ -1,4 +1,4 @@
- <section>
+ 
   <div class="container ">
     <div class="row">
       
@@ -108,4 +108,25 @@
       </div>
     </div>
   </div>
- </section>
+ <hr>
+ <header class="bg-warning text-center p-1 text-capitalize mb-4"><strong><h1>Tab by usnig *ngifandfor</h1></strong></header>
+ <ul class="nav nav-pills">
+    <li 
+        *ngFor="let skill of skillsArray"
+        (click)="selectedskill=skill.skillInfo"
+    class="nav-item">
+        <a 
+        [ngClass]="{
+            active : selectedskill.toLowerCase().includes(skill.skillname) 
+        }"
+        href="javascript:;" class="nav-link">{{skill.skillname}}</a>
+    </li>
+ </ul>
+<hr>
+  <ng-container *ngFor="let skill of skillsArray">
+    <div class="card" *ngIf="selectedskill.includes(skill.skillname)">
+        <div class="card-body" [innerHTML]="skill.skillInfo">
+
+         </div>
+    </div>
+  </ng-container>
