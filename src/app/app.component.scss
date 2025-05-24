@@ -14,10 +14,15 @@
  }
   
  .card{
-  background-color: transparent;
-   border: 1px solid #000;
-    box-shadow: 0 0 0 0.1;
+    background-color: transparent;
+    border: 1px solid #000;
+    
  }
+
+ .card-shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.594);
+    border-radius: 8px;
+}
 // body {
 //     margin: 0;
 //     background-image: url('https://img.freepik.com/premium-photo/computer-keyboard-sits-blue-table-with-cup-coffee-pencils_1064589-253999.jpg?ga=GA1.1.691238510.1743764675&semt=ais_country_boost&w=740');
